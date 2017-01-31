@@ -18,7 +18,9 @@ Plugin 'nvie/vim-flake8'
 Plugin 'scrooloose/syntastic'
 Plugin 'jnurmine/Zenburn'
 Plugin 'altercation/vim-colors-solarized'
-
+Plugin 'Chiel92/vim-autoformat'
+Plugin 'leafgarland/typescript-vim'
+Plugin 'wlangstroth/vim-racket'
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -30,7 +32,7 @@ filetype plugin indent on    " required
 
 
 let python_highlight_all=1
-syntax on				" Enable syntax highlighting
+syntax on          " Enable syntax highlighting
 
 " to search recusively for files
 set path+=**
@@ -61,7 +63,7 @@ set hlsearch
 set showcmd
 
 " indent the same as the line above
-set autoindent	
+set autoindent
 
 " show the row and column number
 set number
@@ -114,4 +116,3 @@ if has('gui_running')
 " set vertical line at 80 char
 set colorcolumn=80
 set laststatus=2
-
