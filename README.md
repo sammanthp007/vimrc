@@ -32,3 +32,18 @@ vim +PluginInstall +qall
 ```
 <F5>
 ```
+## For putting the current line at the middle of the screen
+```
+z.
+zz
+```
+
+## For putting the current line at the top of the screen
+```
+zt
+```
+## For putting the current line at the bottome of the screen as well as for further features
+```
+zb
+:help scroll-cursor
+```
