@@ -8,7 +8,7 @@ git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 
 ### Add the file in this repo as your ~/.vimrc
 ```
-git clone https://github.com/sammanthp007/vimrc.git ~/.vimrc
+git clone https://github.com/sammanthp007/vimrc.git; mv vimrc/vimrc ~/.vimrc; rm -rf vimrc
 ```
 
 ### Download and install all the plugins
