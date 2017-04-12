@@ -87,8 +87,9 @@ set shiftwidth=4
 autocmd Filetype python setlocal expandtab tabstop=4 shiftwidth=4 softtabstop=4
 autocmd Filetype javascript setlocal expandtab tabstop=2 shiftwidth=2 softtabstop=2
 
+" Uncomment 2nd line from here to have bind ctrl B for building in python
 " use c-b to build python and run
-nnoremap <buffer> <c-b> :exec '!clear;python' shellescape(@%, 1)<CR>
+" nnoremap <buffer> <c-b> :exec '!clear;python' shellescape(@%, 1)<CR>
 
 "use cn <f5> to toggel NERDTree
 map <F5> :NERDTreeToggle<CR>
@@ -116,3 +117,4 @@ if has('gui_running')
 " set vertical line at 80 char
 set colorcolumn=80
 set laststatus=2
+
