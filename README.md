@@ -47,3 +47,29 @@ zt
 zb
 :help scroll-cursor
 ```
+
+## Playing with splits
+Vertical Splits
+```
+:vs
+```
+Horizontal Splits
+```
+:split
+```
+Swap your splits
+```
+<c-w><Shift-h>
+<c-w><Shift-l>
+```
+Resize your splits width
+```
+ctrl-w-<
+ctrl-w->
+```
+Resize your splits height
+```
+<c-w><->
+<c-w><+>
+<c-w><_>
+```
