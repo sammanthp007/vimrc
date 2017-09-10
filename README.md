@@ -8,13 +8,19 @@ git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 
 ### Add the file in this repo as your ~/.vimrc
 ```
-git clone https://github.com/sammanthp007/vimrc.git; mv vimrc/vimrc ~/.vimrc; rm -rf vimrc
+git clone https://github.com/sammanthp007/vimrc.git && mv vimrc/vimrc ~/.vimrc && rm -rf vimrc
 ```
 
 ### Download and install all the plugins
 ```
 vim +PluginInstall +qall
 ```
+
+### One liner that sets all this up for you
+```
+git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim && git clone https://github.com/sammanthp007/vimrc.git && mv vimrc/vimrc ~/.vimrc && rm -rf vimrc && vim +PluginInstall +qall
+```
+
 
 ## Some features of VIM I use regularly
 ### For finding content, in command mode:
